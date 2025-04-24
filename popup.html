@@ -5,7 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    Hello, from popup
+<body style="min-width: 200px; padding: 10px; font-family: sans-serif;">
+    
+    <h1>AI Summary</h1>
+    
+    <div class="options">
+        <select id="summary-type">
+            <option value="brief">Brief</option>
+            <option value="detailed">Detailed</option>
+            <option value="bullets">Bullet Points</option>
+        </select>
+
+        <button id="summarize">Summarize</button>
+        <button id="copy">Copy</button>
+    </div>
+
+    <pre id="result">Select a type and click Summarize</pre>
+
+    <script src="popup.js"></script>
+
+
+
 </body>
 </html>
